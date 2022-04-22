@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+    color: white;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.contenedor-card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(200deg,#42047e,#07f49e);
+    width: 400px;
+    height: 500px;
+}
+.contenedor-seguimiento{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.seguidores{
+    margin: 5px;
+}
+.perfil{
+    border: 2px solid black ;
+    text-align: center;
+    padding: 5px;
+}
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
